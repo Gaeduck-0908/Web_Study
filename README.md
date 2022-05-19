@@ -1,6 +1,6 @@
 # 간단한 홈페이지
 ### 회원가입 홈페이지
-### 사용언어 : HTML,CSS,JS,PHP,MySQL
+### 사용언어 : HTML, CSS,JS, PHP, MySQL
 # 코드설명
 ### 유효성 검사
 ### SQL 연결
