@@ -1,0 +1,28 @@
+table,tr,th {
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid black;
+	border-collapse : collapse;
+}
+
+span {
+	color : red;
+}
+
+caption {
+	text-align : right;
+}
+
+th {
+	padding : 40px;
+	text-align : right;
+}
+
+td {
+	padding : 20px;
+	text-align : left;
+}
+
+.sub_right {
+	float : right;
+}

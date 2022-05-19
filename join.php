@@ -3,4 +3,5 @@
 $id = $_POST['id'];
 $pw = $_POST['pw'];
 $pw2 = $_POST['pw2'];
+
 ?>
