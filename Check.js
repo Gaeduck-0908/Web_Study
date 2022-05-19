@@ -4,7 +4,7 @@ function check()
 {
     if(!document.data.id.value)
     {
-        alert("ID 를 입력해주세요");
+        alert("ID를 입력해주세요");
         document.data.id.focus();
         return false;
     }
