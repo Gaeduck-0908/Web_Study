@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>글작성</title>
+    <link rel="stylesheet" href="./Css/write.css">
+</head>
+
+<body>
+    <hr color="white" size="10px">
+    <h1>글쓰기</h1>
+    <hr color="white" size="10px">
+        <form action="./list.html" name="data" method="get">
+            <div id = "center">
+                <table>
+                    <tr>
+                        <td width=50, height = 50>
+                            <select style="height: 25px;">
+                                <option>자유</option>
+                                <option>코드</option>
+                            </select>
+                        </td>
+            
+                        <td>
+                            <input type="text" placeholder="제목을 입력하세요." style="width:100%; height:19px">
+                        </td>
+                    </tr>
+            
+                    <tr>
+                        <td colspan="2">
+                            <textarea placeholder="내용을 입력하세요."></textarea>
+                        </td>
+                    </tr>
+            
+                    <tr>
+                        <td colspan="2" align=right>
+                            <button type="submit"> 글쓰기</button>
+                            <button type="button" onclick="location.href='index.html'">이전으로</button>
+                            <button type="button">목록</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+</body>
+</html>
